@@ -13,7 +13,7 @@ A Streamlit app that lets you upload a PDF and ask questions about it using RAG.
 ## Run
 
 ```bash
-cd 0smart-chat-bot
+cd smart-chat-bot
 pip install -r requirements.txt
 streamlit run app.py
 ```
