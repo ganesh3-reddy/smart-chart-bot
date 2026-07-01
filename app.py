@@ -11,7 +11,7 @@ from google.genai import types
 
 # load the api key and make client connection
 
-api_key = st.secrets["AIzaSyBp2cP4B7LgiqeqYlk6eKvH-HzCbDovbLI"]
+api_key = st.secrets["GEMINI_API_KEY"]
 client = genai.Client(api_key=api_key)
 
 
