@@ -11,9 +11,9 @@ from google.genai import types
 
 # load the api key and make client connection
 
-load_dotenv(dotenv_path='.env')
-api_key=os.environ.get('GEMINI_API_KEY')
+api_key = st.secrets["AIzaSyBp2cP4B7LgiqeqYlk6eKvH-HzCbDovbLI"]
 client = genai.Client(api_key=api_key)
+
 
 # Initialize chromaDB(by using chache.resource we declare it here and use in entire app)
 @st.cache_resource
